@@ -15,6 +15,8 @@ public class InventoryUI : MonoBehaviour
 
     public void UpdateDiamondText(PlayerInventory playerInventory)
     {
+        // sets the text to the number of diamonds in the inventory
         diamondText.text = playerInventory.NumberOfDiamonds.ToString();
     }
 }
+
