@@ -52,5 +52,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "WorldBuilderStarter.sln"
+    "dotnet.defaultSolution": "ca1-world-builder-mcc03-2.sln"
 }
