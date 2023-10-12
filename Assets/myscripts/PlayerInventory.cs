@@ -9,6 +9,7 @@ public class PlayerInventory : MonoBehaviour
     // set the value
     public int NumberOfDiamonds { get; private set; }
 
+    // event takes an argument as type PlayerInventory
     public UnityEvent<PlayerInventory> OnDiamondCollected;
 
     // increments the number of diamonds collected
